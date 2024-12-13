@@ -1,0 +1,49 @@
+import processing.sound.*;
+
+class Music{
+ //Sound
+ private String title;
+ private String date;
+ private String runtime;
+ private String productivity;
+ private String releasedate;
+ 
+  public String getTitle() {
+        return title;
+    }
+  public String getDate() {
+        return date;
+    }
+  public String getRuntime() {
+        return runtime;
+    }
+ public String getProductivity() {
+        return productivity;
+    }
+ public String getReleaseDate(){
+   return releasedate;
+ }
+ public void setReleaseDate(String releasedate) {
+        this.releasedate = releasedate;
+ }
+ public void setTitle(String title) {
+        this.title = title;
+    }
+ public void setDate(String date) {
+        this.date = date;
+    }
+ public void setRuntime(String runtime) {
+        this.runtime = runtime;
+    }
+ public void setPrice(String productivity) {
+        this.productivity = productivity;
+    }
+ 
+ public Music(String title, String date, String runtime, String productivity, String releasedate){
+   this.title = title;
+   this.runtime = runtime;
+   this.productivity = productivity;
+   this.releasedate = releasedate;
+ }
+
+}
